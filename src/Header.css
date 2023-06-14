@@ -3,20 +3,6 @@ h2{
     opacity:0.2;
     font-family: Arial Narrow;
 }
-.name{
-    display:flex;
-}
-
-.contact{
-    display:flex;
-}
-
-.first-name {
-    margin-right: 1cm;
-}
-.mail{
-    margin-right: 1cm;
-}
 
 input{
     text-align: left;
@@ -29,25 +15,8 @@ input{
     border-radius: 5%;
 }
 input::placeholder{
-    padding-left: 0.5cm;
+    padding-left: 10px;
 }
-.submission{
-    margin-top: 1cm;
-    display: flex;
-    padding-left:422px
-}
-#cancel{
-    width:100px;
-    font-weight: bolder;
-    font-size: larger;
-}
-#submit{
-    width:100px;
-    background-color: black;
-    color:white;
-    font-size: larger;
-    font-weight: bolder;
-}
-.cancel{
-    padding-right:20px;
+.nameField{
+    padding-right: 50px;
 }

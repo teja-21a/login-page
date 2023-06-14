@@ -1,14 +1,22 @@
 import './App.css';
-import Submit,{Header,Name,UserContacts} from './Header';
+import Input,{Header,} from './Header';
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Name/>
-      <UserContacts/>
-      <Submit/> 
-
+      <div class="fullName">
+      <Input name = "First Name" namePlaceholder =  "Enter your first name" />
+      <Input name = "Last Name" namePlaceholder = "Enter your last name"/>
+      </div>
+      <div class="contactDetails">
+        <Input name = "Email" type="Email" namePlaceholder="Enter your mail address"/>
+        <Input name = "Phone" type="tel" namePlaceholder="+91"/>
+      </div>
+      <div class="optionSubmission">
+      <Input  type="Cancel" value="Cancel"/>
+      <Input  type="Submit" value="Submit"/>
+      </div>
     </div>
   );
 }

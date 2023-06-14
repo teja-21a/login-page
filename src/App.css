@@ -1,4 +1,25 @@
 .App{
-  margin-top:4cm;
-  margin-left:7cm;
+  margin-top: 200px;
+  margin-left:300px;
+}
+.fullName{
+  display:flex;
+}
+.contactDetails{
+  display: flex;
+}
+.optionSubmission{
+  display: flex;
+  margin-left: 490px;
+}
+.optionSubmission .nameField{
+  padding-right:10px;
+}
+.optionSubmission input{
+  height: 50px;
+  width: 80px;
+  text-align: center;
+  background-color: black;
+  color:aliceblue;
+  
 }
